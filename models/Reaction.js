@@ -1,5 +1,4 @@
 const { Schema, Types } = require('mongoose');
-const reactionSchema = require('./Reaction');
 
 const reactionSchema = new Schema(
     {
@@ -29,5 +28,8 @@ const reactionSchema = new Schema(
         id: false,
     }
 );
+
+//TODO use a getter method to format the timestamp on query
+
 
 module.exports = reactionSchema;
