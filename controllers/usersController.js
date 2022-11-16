@@ -12,6 +12,7 @@ module.exports = {
     },
     //Create new user
     createUser(req, res) {
+        console.log(req.body);
         User.create(req.body)
             .then(user => 
                 res.json(user))

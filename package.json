@@ -2,11 +2,21 @@
   "name": "18-Social-Net-API",
   "version": "1.0.1",
   "description": "Mongoose enabeled backend assignment - Bryan Borek",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanBorek/18-Social-Net-API.git"
+  },
+  "author": "Bryan Borek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanBorek/18-Social-Net-API/issues"
+  },
+  "homepage": "https://github.com/BryanBorek/18-Social-Net-API#readme",
   "dependencies": {
     "express": "^4.18.2",
     "mongodb": "^4.11.0",
